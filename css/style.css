@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    font-family: 'Raleway',sans-serif;
+    overflow: hidden;
+    background: conic-gradient(from -.5turn at bottom right, deeppink, cyan, rebeccapurple);
+}
+.container{
+    width: 95%;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.relogioDigital{
+    width: fit-content;
+    margin: auto;
+    padding: 10px;
+    border-radius: 2px;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.1);
+}
+.relogioDigital h2{
+    display: inline-block;
+    margin: 0 10px;
+    font-weight: bold;
+    font-size: 5rem;
+}
+@media(max-width:768px){
+    #barra1,#barra2{
+        display: none;
+    }
+    .relogioDigital{
+        text-align: center;
+        width: 100%;
+    }
+    .relogioDigital h2{
+        display: block;
+    }
+}
+@media(max-width:480px){
+    .relogioDigital{
+    font-size: 4rem;
+    }
+}
